@@ -1,0 +1,47 @@
+# Copyright (C) Iniznet
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"X-Domain: mahout-ui\n"
+
+#: src/Components/Content/markup/avatar.php:8
+msgid "Avatar of %s"
+msgstr ""
+
+#: src/Components/Navigation/markup/breadcrumb.php:7
+msgid "Breadcrumb"
+msgstr ""
+
+#: src/Components/Overlays/markup/dialog.php:13
+msgid "Close"
+msgstr ""
+
+#: src/Components/Post/markup/pagination.php:11
+msgid "Newer"
+msgstr ""
+
+#: src/Components/Post/markup/pagination.php:14
+msgid "Older"
+msgstr ""
+
+#: src/Components/Forms/markup/form-summary.php:8
+msgid "Please fix the following:"
+msgstr ""
+
+#: src/Components/Post/markup/embed-body.php:17
+msgid "Read the full post"
+msgstr ""
+
+#: src/Components/Feedback/markup/error-state.php:13
+msgid "Reference: %s"
+msgstr ""
+
+#. translators: %s: the current year.
+#: src/Components/Navigation/markup/site-footer.php:11
+msgid "© %s"
+msgstr ""
+
