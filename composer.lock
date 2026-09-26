@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da72719c575909aeca18886830f8ef39",
+    "content-hash": "8381ce01c14830f31b902314e832e49f",
     "packages": [
         {
             "name": "iniznet/mahout-content",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:iniznet/mahout-content.git",
+                "reference": "78b8d3b5bcd45201d0b9db2933344b808544b2ac"
+            },
             "dist": {
-                "type": "path",
-                "url": "../mahout-content",
-                "reference": "f611c4ab58fdc3ab4ca921069a9a4454298b6aed"
+                "type": "zip",
+                "url": "https://api.github.com/repos/iniznet/mahout-content/zipball/78b8d3b5bcd45201d0b9db2933344b808544b2ac",
+                "reference": "78b8d3b5bcd45201d0b9db2933344b808544b2ac",
+                "shasum": ""
             },
             "require": {
                 "iniznet/mahout-kernel": "^1.0",
@@ -21,6 +27,7 @@
             "require-dev": {
                 "iniznet/mahout-devtools": "^1.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -81,7 +88,6 @@
                     "@format:check",
                     "@stan",
                     "@psalm",
-                    "@arch",
                     "@rector",
                     "@test",
                     "@hooks:check",
@@ -102,18 +108,21 @@
                 "taxonomy",
                 "wordpress"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-09-25T13:52:02+00:00"
         },
         {
             "name": "iniznet/mahout-kernel",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:iniznet/mahout-kernel.git",
+                "reference": "7216af3aa13bb059a73955edf19e241855ffe52a"
+            },
             "dist": {
-                "type": "path",
-                "url": "../mahout-kernel",
-                "reference": "7c006ea3466e272f495d509518739f8930138f1d"
+                "type": "zip",
+                "url": "https://api.github.com/repos/iniznet/mahout-kernel/zipball/7216af3aa13bb059a73955edf19e241855ffe52a",
+                "reference": "7216af3aa13bb059a73955edf19e241855ffe52a",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.4"
@@ -121,6 +130,7 @@
             "require-dev": {
                 "iniznet/mahout-devtools": "^1.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -181,7 +191,6 @@
                     "@format:check",
                     "@stan",
                     "@psalm",
-                    "@arch",
                     "@rector",
                     "@test",
                     "@hooks:check",
@@ -201,18 +210,21 @@
                 "mahout",
                 "wordpress"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-09-25T13:52:02+00:00"
         },
         {
             "name": "iniznet/mahout-render",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:iniznet/mahout-render.git",
+                "reference": "bbf93b55c3e15c232e74227465f44857a6a260c2"
+            },
             "dist": {
-                "type": "path",
-                "url": "../mahout-render",
-                "reference": "6e0a48f8a62b38ec96ee188acb6b8f18e8856a13"
+                "type": "zip",
+                "url": "https://api.github.com/repos/iniznet/mahout-render/zipball/bbf93b55c3e15c232e74227465f44857a6a260c2",
+                "reference": "bbf93b55c3e15c232e74227465f44857a6a260c2",
+                "shasum": ""
             },
             "require": {
                 "iniznet/mahout-kernel": "^1.0",
@@ -221,6 +233,7 @@
             "require-dev": {
                 "iniznet/mahout-devtools": "^1.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -281,9 +294,10 @@
                     "@format:check",
                     "@stan",
                     "@psalm",
-                    "@arch",
                     "@rector",
                     "@test",
+                    "@hooks:check",
+                    "@i18n:check",
                     "@doctor",
                     "@config:check"
                 ]
@@ -299,10 +313,7 @@
                 "surfaces",
                 "wordpress"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-09-25T13:52:02+00:00"
         }
     ],
     "packages-dev": [
@@ -1996,10 +2007,16 @@
         {
             "name": "iniznet/mahout-devtools",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "../mahout-devtools",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:iniznet/mahout-devtools.git",
                 "reference": "1c99b4a2f9318cfc0b15bdef4ef59f551d52c9a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iniznet/mahout-devtools/zipball/1c99b4a2f9318cfc0b15bdef4ef59f551d52c9a1",
+                "reference": "1c99b4a2f9318cfc0b15bdef4ef59f551d52c9a1",
+                "shasum": ""
             },
             "require": {
                 "friendsofphp/php-cs-fixer": "^3.64",
@@ -2010,6 +2027,7 @@
                 "vimeo/psalm": "^6.0",
                 "yoast/phpunit-polyfills": "^1.1"
             },
+            "default-branch": true,
             "bin": [
                 "bin/mahout-devtools"
             ],
@@ -2101,10 +2119,7 @@
                 "tooling",
                 "wordpress"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-09-22T15:24:24+00:00"
         },
         {
             "name": "kelunik/certificate",
@@ -7142,14 +7157,12 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "iniznet/mahout-kernel": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.4"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.9.0"
 }
